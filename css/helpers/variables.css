@@ -1,0 +1,13 @@
+:root {
+  --wrapper-offset: 50px;
+  --header-height: 60px;
+  --trans-dur: 0.4s;
+
+  /* colors */
+  --color-accent: #ff7235;
+  --color-nowhite: #fffaf8;
+  --color-white: #fff;
+  --color-text-main: #292830;
+  --color-text-gray: #bdbdbd;
+  --color-transparent: transparent;
+}

@@ -1,0 +1,140 @@
+.block_2 {
+  display: block;
+  overflow: hidden;
+}
+
+.block_2__info {
+  margin-bottom: 80px;
+}
+
+.block_2__title {
+  font-weight: 700;
+  font-size: 72px;
+  text-align: center;
+  line-height: 1;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -30px;
+  row-gap: 30px;
+}
+
+.item_w {
+  padding-right: 30px;
+  width: calc(100% / 3);
+  /* background-color: var(--color-white);
+  border-radius: 12px; */
+}
+
+.item_w_in {
+  background-color: var(--color-white);
+  border-radius: 12px;
+}
+
+.item {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* text-align: start; */
+  /* justify-content: center; */
+  min-height: 500px;
+  /* width: calc(100% / 3); */
+  padding: 40px 40px;
+  transition: box-shadow var(--trans-dur) ease-in-out;
+}
+
+.item:hover {
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.04);
+}
+
+/* .item__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  min-height: 350px;
+  width: calc(100% / 3);
+
+  padding: 38px 42px;
+
+  transition: box-shadow var(--trans-dur) ease-in-out;
+} */
+
+.item__pic {
+  width: 24px;
+  height: 24px;
+  background-image: url(../../imgs/lorem.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 24px;
+}
+
+.item__pic.item__pic--2 {
+  background-image: url(../../imgs/giftcard.svg);
+}
+
+.item__pic.item__pic--3 {
+  background-image: url(../../imgs/membership.svg);
+}
+
+.item__title {
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.item__list {
+  margin-bottom: 24px;
+  line-height: 2;
+}
+
+.item__item {
+  font-size: 18px;
+}
+
+.item__check {
+  padding-right: 8px;
+}
+
+.item__price {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.span_price {
+  font-weight: 300;
+  font-size: 20px;
+  color: var(--color-text-gray);
+}
+
+.item__subtitle {
+  margin-bottom: 40px;
+  font-size: 12px;
+  color: var(--color-text-gray);
+}
+
+@media screen and (768px <= width < 1024px) {
+  .item_w {
+    width: calc(100% / 2);
+  }
+  .block_2__title {
+    font-size: 50px;
+  }
+  
+}
+
+@media screen and (width < 768px) {
+  .item_w {
+    width: 100%;
+  }
+  .item {
+    align-items: center;
+  }
+  .block_2__title {
+    font-size: 42px;
+  }
+}

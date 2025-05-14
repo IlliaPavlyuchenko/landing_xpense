@@ -1,0 +1,109 @@
+.block_2__pictures_w {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 16px;
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+  align-content: center;
+}
+
+.shop_picture {
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 202px;
+}
+
+.shop_picture.shop_picture--1 {
+  grid-row: 1 / 3;
+  grid-column: 1 / 3;
+  background-image: url(../../shop_pic/pic_1.png);
+}
+
+.shop_picture.shop_picture--2 {
+  background-image: url(../../shop_pic/pic_2.png);
+  grid-column: 3 / 5;
+}
+
+.shop_picture.shop_picture--3 {
+  grid-column: 5 /7;
+  background-image: url(../../shop_pic/pic_3.jpg);
+}
+
+.shop_picture.shop_picture--4 {
+  grid-column: 3 / 5;
+  background-image: url(../../shop_pic/pic_4.jpg);
+}
+
+.shop_picture.shop_picture--5 {
+  background-image: url(../../shop_pic/pic_5.png);
+}
+
+.shop_picture.shop_picture--6 {
+  background-image: url(../../shop_pic/pic_6.jpg);
+}
+
+.shop_picture.shop_picture--7 {
+  grid-column: 1 / 3;
+  background-image: url(../../shop_pic/pic_7.png);
+}
+
+.shop_picture.shop_picture--8 {
+  grid-column: 3 / 7;
+  background-image: url(../../shop_pic/pic_8.png);
+}
+
+/* test */
+
+/* .block_2__pictures_w {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 16px;
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+  align-content: center;
+}
+
+.shop_picture.shop_picture--1 {
+  background-color: aquamarine;
+  grid-row: 1 / 3;
+  grid-column: 1 / 3;
+}
+
+.shop_picture.shop_picture--2 {
+  background-color: aquamarine;
+  grid-column: 3 / 5;
+}
+
+.shop_picture.shop_picture--3 {
+  background-color: aquamarine;
+  grid-column: 5 /7;
+}
+
+.shop_picture.shop_picture--4 {
+  background-color: aquamarine;
+  grid-column: 3 / 5;
+}
+
+.shop_picture.shop_picture--5 {
+  background-color: aquamarine;
+}
+
+.shop_picture.shop_picture--6 {
+  background-color: aquamarine;
+}
+
+.shop_picture.shop_picture--7 {
+  background-color: aquamarine;
+  grid-column: 1 / 3;
+}
+
+.shop_picture.shop_picture--8 {
+  background-color: aquamarine;
+  grid-column: 3 / 7;
+} */
