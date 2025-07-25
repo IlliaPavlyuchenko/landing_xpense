@@ -14,12 +14,10 @@
   font-weight: 700;
   line-height: 1;
   flex-shrink: 0;
-  width: 66%; /* variant 1 */
-  /* flex-shrink: 1; variant 2 */
+  width: 66%; 
 }
 
 .product__descr {
-  /* flex-shrink: 2; variant 2 */
   color: var(--color-text-gray);
 }
 
