@@ -397,6 +397,9 @@ main {
   .content__col {
     width: 100%;
   }
+  .section.section--hero {
+  margin-top: 75px;
+}
   .content__descr {
     font-size: 18px;
   }
